@@ -11,7 +11,7 @@ body{
     align-self: center;
     background-color: #FFFFFF;
 }
-h6{
+p{
     color: var(--second-text-color, #737373);
     text-align: center;
     font-family: Montserrat;
@@ -27,4 +27,40 @@ h6{
     flex-direction: column;
     align-items: center;
     gap: 20px;
+}
+.starlist img{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    height: 2em;
+    cursor: pointer;
+}
+.user div{
+    display: flex;
+    justify-content: end;
+}
+.user.uinfo div{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.uinfo a{
+    color: var(--primary-color, #23A6F0);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    text-decoration-line: none;
+    ;
+}
+.user#ud p{
+    color: var(--text-color, #252B42);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.2px;
 }
